@@ -17,7 +17,7 @@ console.info('\tsecond.ts: ', objInSecond());
 updateObj('New value');
 console.info('\n>>> Object\'s updated values:');
 console.info('\tapp.ts: ', obj.someValue);
-console.info('\tsecond.ts: ', objInSecond());
+console.info('\tsecond.ts: ', objInSecond()); // Interestingly, the second file preserves value changes to obj made 3 lines above
 
 /**
  * Class

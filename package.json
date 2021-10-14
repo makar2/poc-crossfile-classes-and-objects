@@ -5,7 +5,7 @@
   "main": "dist/app.js",
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register src/app.ts",
-    "lint": "eslint ./src/*/**.ts"
+    "lint": "eslint './src/**/*.ts'"
   },
   "author": "",
   "license": "ISC",

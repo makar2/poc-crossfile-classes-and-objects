@@ -1,5 +1,7 @@
 import { obj } from '@/for-import/object';
+import { InitInCl } from '@/for-import/Cl'
+import { InitInApp } from '@/app';
 
-const second = () => obj.someValue;
-
-export default second;
+export const objInSecond = () => obj.someValue;
+export const appInitClassInSecond = () => InitInApp.someValue;
+export const selfInitClassInSecond = () => InitInCl.someValue;
